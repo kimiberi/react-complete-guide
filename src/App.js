@@ -2,12 +2,15 @@ import React, { Component } from 'react'
 import './App.css'
 import Homepage from './component/Homepage'
 
+// Class Stateless Component
 class App extends Component {
   render() {
     return (
       <div className='App'>
         <h1> this is heading</h1>
-        <Homepage />
+        {/* <Homepage name='Max' />
+        <hr style={{ width: 400 }} /> */}
+        <Homepage name='Doe'>Their hobby: programming</Homepage>
       </div>
 
       // React.createElement(
